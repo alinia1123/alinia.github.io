@@ -69,5 +69,46 @@ footer{
   color: white;
   padding:10px 0;
 }
-  
+  /* === Table Styling ===*/
+table{ 
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #004080
+    font-size: 1.2em;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding:  10px:
+    text-align: left;
+}
+
+th{
+    background-color: #004080
+    color: white;
+}
+
+
+/*=== Hover effects ===*/
+nav ul li a{
+    color: white;
+    text.decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+section{
+    transition: transform 0.3s ease;
+}
+section:hover{
+    transform: scale(1.02);
+}
+    
+
+
   
